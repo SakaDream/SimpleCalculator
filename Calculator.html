@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/MayTinh.css">
+	<script type="text/javascript" src="js/MayTinh.js"></script>
+	<title>Máy tính</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="display">
+			<input type="text" size="63" name="display" placeholder="Operation">
+		</div>
+		<div class="result">
+			<div class="text">Result</div>
+			<input type="text" size=49 name="result" placeholder="Result" style="font-weight: bold;">
+		</div>
+		<div class="buttons">
+			<div class="row">
+				<div class="btn">
+					<button type="button" onclick="pow2();">x<sup>2</sup></button>
+				</div>
+				<div class="btn">
+					<button type="button" onclick="sqrt();"><span style="white-space: nowrap; font-size:larger">
+					&radic;<span style="text-decoration:overline;">&nbsp;x&nbsp;</span></span></button>
+				</div>
+				<div class="btn">
+					<button type="button" onclick="percent();">%</button>
+				</div>
+				<div class="btn">
+					<button type="button" onclick="reset();">C</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="btn">
+					<button type="button" onclick="num7();">7</button>
+				</div>
+				<div class="btn">
+					<button type="button" onclick="num8();">8</button>
+				</div>
+				<div class="btn">
+					<button type="button" onclick="num9();">9</button>
+				</div>
+				<div class="btn">
+					<button type="button" onclick="div();">/</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="btn">
+					<button type="button" onclick="num4();">4</button>
+				</div>
+				<div class="btn">
+					<button type="button" onclick="num5();">5</button>
+				</div>
+				<div class="btn">
+					<button type="button" onclick="num6();">6</button>
+				</div>
+				<div class="btn">
+					<button type="button" onclick="multi();">*</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="btn">
+					<button type="button" onclick="num1();">1</button>
+				</div>
+				<div class="btn">
+					<button type="button" onclick="num2();">2</button>
+				</div>
+				<div class="btn">
+					<button type="button" onclick="num3();">3</button>
+				</div>
+				<div class="btn">
+					<button type="button" onclick="add();">+</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="btn">
+					<button type="button" onclick="num0();">0</button>
+				</div>
+				<div class="btn">
+					<button type="button" onclick="point();">.</button>
+				</div>
+				<div class="btn">
+					<button type="button" onclick="result();">=</button>
+				</div>
+				<div class="btn">
+					<button type="button" onclick="sub();">-</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
